@@ -11,7 +11,7 @@ import UIKit
 class BaseTabBarController: UITabBarController {
 
     
-    let NameArr = ["取证","资源管理","我的"]
+    let NameArr = ["first","second","three"]
     let imageArr = ["TabbarHomeGray","TabbarResourcesGray","TabbarPersonalCenterGray"]
     let imageSeleArr = ["TabbarHomeSele","TabbarResourcesSele","TabbarPersonalCenterSele"]
     

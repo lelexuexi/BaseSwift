@@ -23,6 +23,10 @@
 		E6EEBC0B205A52C10072DDDC /* OneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EEBC0A205A52C10072DDDC /* OneVC.swift */; };
 		E6EEBC0D205A52CF0072DDDC /* TwoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EEBC0C205A52CF0072DDDC /* TwoVC.swift */; };
 		E6EEBC0F205A52DD0072DDDC /* ThreeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EEBC0E205A52DD0072DDDC /* ThreeVC.swift */; };
+		E6EEBC12205A56300072DDDC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E6EEBC11205A562F0072DDDC /* README.md */; };
+		E6EEBC15205A658C0072DDDC /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EEBC14205A658C0072DDDC /* BaseButton.swift */; };
+		E6EEBC18205A65FC0072DDDC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EEBC17205A65FC0072DDDC /* LoginView.swift */; };
+		E6EEBC1A205A661C0072DDDC /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EEBC19205A661C0072DDDC /* LoginModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +50,10 @@
 		E6EEBC0A205A52C10072DDDC /* OneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneVC.swift; sourceTree = "<group>"; };
 		E6EEBC0C205A52CF0072DDDC /* TwoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoVC.swift; sourceTree = "<group>"; };
 		E6EEBC0E205A52DD0072DDDC /* ThreeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeVC.swift; sourceTree = "<group>"; };
+		E6EEBC11205A562F0072DDDC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E6EEBC14205A658C0072DDDC /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		E6EEBC17205A65FC0072DDDC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E6EEBC19205A661C0072DDDC /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,7 @@
 				E6EEBBEC205A506D0072DDDC /* Assets.xcassets */,
 				E6EEBBEE205A506D0072DDDC /* LaunchScreen.storyboard */,
 				E6EEBBF1205A506D0072DDDC /* Info.plist */,
+				E6EEBC11205A562F0072DDDC /* README.md */,
 			);
 			path = BaseSwift;
 			sourceTree = "<group>";
@@ -114,6 +123,7 @@
 		E6EEBBF7205A50920072DDDC /* BaseCode */ = {
 			isa = PBXGroup;
 			children = (
+				E6EEBC13205A65620072DDDC /* CustomView */,
 				E6EEBBF9205A50C00072DDDC /* BaseColor.swift */,
 				E6EEBBFC205A50C00072DDDC /* BaseNavigationController.swift */,
 				E6EEBBFA205A50C00072DDDC /* BaseTabBarController.swift */,
@@ -145,6 +155,7 @@
 			children = (
 				E6EEBC05205A50F40072DDDC /* LoginManageCenter.swift */,
 				E6EEBC06205A50F40072DDDC /* LoginVC.swift */,
+				E6EEBC16205A65D50072DDDC /* loginViews */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -164,6 +175,23 @@
 			children = (
 			);
 			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		E6EEBC13205A65620072DDDC /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				E6EEBC14205A658C0072DDDC /* BaseButton.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		E6EEBC16205A65D50072DDDC /* loginViews */ = {
+			isa = PBXGroup;
+			children = (
+				E6EEBC17205A65FC0072DDDC /* LoginView.swift */,
+				E6EEBC19205A661C0072DDDC /* LoginModel.swift */,
+			);
+			path = loginViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +258,7 @@
 			files = (
 				E6EEBBF0205A506D0072DDDC /* LaunchScreen.storyboard in Resources */,
 				E6EEBBED205A506D0072DDDC /* Assets.xcassets in Resources */,
+				E6EEBC12205A56300072DDDC /* README.md in Resources */,
 				E6EEBBEB205A506D0072DDDC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6EEBC15205A658C0072DDDC /* BaseButton.swift in Sources */,
 				E6EEBBFF205A50C00072DDDC /* BaseTabBarController.swift in Sources */,
 				E6EEBC0F205A52DD0072DDDC /* ThreeVC.swift in Sources */,
 				E6EEBC0B205A52C10072DDDC /* OneVC.swift in Sources */,
@@ -304,7 +334,9 @@
 				E6EEBC0D205A52CF0072DDDC /* TwoVC.swift in Sources */,
 				E6EEBC01205A50C00072DDDC /* BaseNavigationController.swift in Sources */,
 				E6EEBBE8205A506D0072DDDC /* ViewController.swift in Sources */,
+				E6EEBC18205A65FC0072DDDC /* LoginView.swift in Sources */,
 				E6EEBC00205A50C00072DDDC /* BaseTableVC.swift in Sources */,
+				E6EEBC1A205A661C0072DDDC /* LoginModel.swift in Sources */,
 				E6EEBC08205A50F40072DDDC /* LoginVC.swift in Sources */,
 				E6EEBC07205A50F40072DDDC /* LoginManageCenter.swift in Sources */,
 				E6EEBC02205A50C00072DDDC /* BaseVC.swift in Sources */,
